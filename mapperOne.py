@@ -21,8 +21,6 @@ class User(Base):
 
 usermapper = mapper(User,users)
 
-session = create_session()
-
 fred = User()
 fred.name = 'Fred'
 fred.age = 37
